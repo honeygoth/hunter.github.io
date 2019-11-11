@@ -1,0 +1,137 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  background: url('images/knqw5k1.jpg');
+  background-size: cover;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+#author
+{
+  float: left;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 25%;
+  border: 2px solid rgba(89, 255, 104);
+  margin-left: 5px;
+}
+
+#navigation
+{
+
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+#navigation ul
+{
+
+  list-style: none;
+}
+
+#navigation li
+{
+  margin-top: 20px;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+#navigation a
+{
+  position: relative;
+  transition: .5s ease;
+  -webkit-transiton: .5s ease;
+  -moz-transiton: .5s ease;
+  -o-transiton: .5s ease;
+  color: rgba(255,255,255);
+}
+
+#navigation a::after
+{
+  content: '';
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background: rgba(255,255,255);
+  transition: width 0.3s ease;
+  -webkit-transition: width .3s ease;
+}
+
+#navigation a:hover::after
+{
+  width: 100%;
+  left: 0;
+}
+
+main
+{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+main h1
+{
+  text-decoration: underline dotted white;
+  color: white;
+}
+
+main h2
+{
+  text-decoration: underline wavy white;
+  color: white;
+}
+
+main i
+{
+  font-size: 32px;
+}
+
+main a
+{
+  color: rgba(71, 180, 39);
+  text-decoration: none;
+}
+
+#about
+{
+  height: 100vh;
+}
+
+#faq
+{
+
+}
+
+.code
+{
+  color: rgba(0,0,0);
+  width: 100%;
+  background: rgba(245, 245, 245);
+}
+
+.code h4
+{
+  color: rgba(42, 223, 45);
+}
+
+.code hr
+{
+
+}
